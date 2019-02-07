@@ -1,0 +1,25 @@
+.addForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+form button {
+    margin-top: 15px;
+}
+form button {
+    width: 15%;
+    color: #fff;
+    background-color: rgb(119, 155, 153);
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}

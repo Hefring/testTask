@@ -1,0 +1,52 @@
+span {
+    margin-right: 20px;
+}
+h2 {
+    display: flex;
+}
+
+.list .main-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list .attributes {
+    width: 60%;
+    margin: 5px 0 0 10px;
+}
+.list .attr {
+    display: inline-block;
+    margin-left: 5px;
+    width: 30%;
+}
+
+
+.card .article {
+    width: 30%;
+    margin: 10px 0 10px 10px;
+    border: 1px solid #ccc;
+    padding: 5px 5px;
+}
+.card .main-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.card .title {
+    width: 100%;
+}
+.card .attributes {
+    width: 100%;
+    margin: 5px 0 10px 10px;
+}
+.card .attr {
+    margin-left: 5px;
+    width: 30%;
+}
+
+.card h2 {
+    justify-content: space-between;
+}
+.card span {
+    order: 2;
+}
